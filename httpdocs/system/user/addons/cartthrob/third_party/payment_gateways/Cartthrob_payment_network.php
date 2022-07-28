@@ -29,13 +29,13 @@ class Cartthrob_payment_network_hosted extends Cartthrob_payment_gateway
       'name' => 'payment_network_merchant_id',
       'short_name' => 'merchant_id',
       'type' => 'text',
-      'default' => '100001',
+      'default' => '155928',
     ),
     array(
       'name' => 'payment_network_signature_key',
       'short_name' => 'signature_key',
       'type' => 'text',
-      'default' => 'Circle4Take40Idea'
+      'default' => 'm3rch4nts1gn4tur3k3y'
     ),
     array(
       'name' => 'payment_network_form_responsive',
@@ -50,7 +50,7 @@ class Cartthrob_payment_network_hosted extends Cartthrob_payment_gateway
       'name' => 'payment_network_custom_url',
       'short_name' => 'custom_url',
       'type' => 'text',
-      'default' => 'https://gateway.example.com/hosted/'
+      'default' => 'https://commerce-api.handpoint.com/hosted/'
     ),
     array(
       'name' => 'payment_network_currency_code',

@@ -28,7 +28,7 @@ To rebrand this module, complete the following steps:
 
 1. In file `httpdocs/system/user/addons/cartthrob/third_party/payment_gateways/Cartthrob_payment_network.php` change the following:
 	- Line 20: `* @author Payment Network <https://www.example.com>` to your website URL
-	- Line 53: `'default' => 'https://gateway.example.com/hosted/'` change this URL to your gateway URL we supply
+	- Line 53: `'default' => 'https://commerce-api.handpoint.com/hosted/'` change this URL to your gateway URL we supply
 2. In file `httpdocs/system/user/addons/cartthrob/third_party/language/english/cartthrob_payment_network_hosted_lang.php` change the following:
 	- Line 3: `'payment_network_title' => 'Payment Network (Hosted)',` changing Payment Network to your brand name
 	- Line 4: `'payment_network_description' => '<a href="https://www.example.com"><img src="system/user/addons/cartthrob/third_party/payment_gateways/cs-logo.png" border="0" alt="Payment Network" /></a>` changing the  website URL to your brand URL and the Payment Network alt text to your brand name
